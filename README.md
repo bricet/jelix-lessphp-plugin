@@ -6,8 +6,6 @@ This project is a plugin for [Jelix](http://jelix.org) PHP framework. It allows 
 This is an htmlresponse plugin.
 
 
----
-
 
 Installation
 ============
@@ -15,7 +13,8 @@ Installation
 Under Jelix default configuration, create an "htmlresponse" directory in your project's "plugins" directory.
 Clone this repository in that directory.
 
----
+
+
 
 Usage
 =====
@@ -36,6 +35,7 @@ N.B. : the directories containing less files should be writable by your web serv
 
 
 If you which to switch between lessphp and client-side less, you should just have to remove "lessphp" from your jResponseHtml's plugins and include less.js.
+
 
 
 Config
