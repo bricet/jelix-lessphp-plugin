@@ -38,4 +38,19 @@ N.B. : the directories containing less files should be writable by your web serv
 If you which to switch between lessphp and client-side less, you should just have to remove "lessphp" from your jResponseHtml's plugins and include less.js.
 
 
+Config
+======
+
+You can configure lessphp's behviour regarding compilation:
+
+    [jResponseHtml]
+    ;...
+    ; always|onchange|once
+    lessphp_compile=always
+
+If lessphp\_compile's value is not valid or empty, its default value is onchange.
+
+always : compile less file on all requests
+onchange : compile less file only if it has changed
+once : compile less file once and never compile it again (until compiled file is removed)
 
