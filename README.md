@@ -50,7 +50,7 @@ You can configure lessphp's behviour regarding compilation:
 
 If lessphp\_compile's value is not valid or empty, its default value is onchange.
 
-always : compile less file on all requests
-onchange : compile less file only if it has changed
-once : compile less file once and never compile it again (until compiled file is removed)
+* always : compile less file on all requests
+* onchange : compile less file only if it has changed
+* once : compile less file once and never compile it again (until compiled file is removed)
 
